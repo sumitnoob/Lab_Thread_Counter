@@ -1,0 +1,421 @@
+
+===== TC1: java Sumit_Thread 1 1000 true  (run 1) =====
+Mode            : Thread-safe (AtomicLong)
+Threads         : 1
+Increments/thr  : 1000
+Expected count  : 1000
+Static count    : 1000
+Non-static total: 1000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC1: java Sumit_Thread 1 1000 false  (run 1) =====
+Mode            : Unsynchronized (long)
+Threads         : 1
+Increments/thr  : 1000
+Expected count  : 1000
+Static count    : 1000
+Non-static total: 1000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC1: java Sumit_Thread 1 1000 false  (run 2) =====
+Mode            : Unsynchronized (long)
+Threads         : 1
+Increments/thr  : 1000
+Expected count  : 1000
+Static count    : 1000
+Non-static total: 1000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC1: java Sumit_Thread 1 1000 false  (run 3) =====
+Mode            : Unsynchronized (long)
+Threads         : 1
+Increments/thr  : 1000
+Expected count  : 1000
+Static count    : 1000
+Non-static total: 1000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC1: java Sumit_Thread 1 1000 false  (run 4) =====
+Mode            : Unsynchronized (long)
+Threads         : 1
+Increments/thr  : 1000
+Expected count  : 1000
+Static count    : 1000
+Non-static total: 1000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC1: java Sumit_Thread 1 1000 false  (run 5) =====
+Mode            : Unsynchronized (long)
+Threads         : 1
+Increments/thr  : 1000
+Expected count  : 1000
+Static count    : 1000
+Non-static total: 1000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC2: java Sumit_Thread 2 10000 true  (run 1) =====
+Mode            : Thread-safe (AtomicLong)
+Threads         : 2
+Increments/thr  : 10000
+Expected count  : 20000
+Static count    : 20000
+Non-static total: 20000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC2: java Sumit_Thread 2 10000 false  (run 1) =====
+Mode            : Unsynchronized (long)
+Threads         : 2
+Increments/thr  : 10000
+Expected count  : 20000
+Static count    : 13347
+Non-static total: 20000
+Absolute diff   : 6653
+Difference (%)  : 33.2650
+
+===== TC2: java Sumit_Thread 2 10000 false  (run 2) =====
+Mode            : Unsynchronized (long)
+Threads         : 2
+Increments/thr  : 10000
+Expected count  : 20000
+Static count    : 11981
+Non-static total: 20000
+Absolute diff   : 8019
+Difference (%)  : 40.0950
+
+===== TC2: java Sumit_Thread 2 10000 false  (run 3) =====
+Mode            : Unsynchronized (long)
+Threads         : 2
+Increments/thr  : 10000
+Expected count  : 20000
+Static count    : 11960
+Non-static total: 20000
+Absolute diff   : 8040
+Difference (%)  : 40.2000
+
+===== TC2: java Sumit_Thread 2 10000 false  (run 4) =====
+Mode            : Unsynchronized (long)
+Threads         : 2
+Increments/thr  : 10000
+Expected count  : 20000
+Static count    : 12615
+Non-static total: 20000
+Absolute diff   : 7385
+Difference (%)  : 36.9250
+
+===== TC2: java Sumit_Thread 2 10000 false  (run 5) =====
+Mode            : Unsynchronized (long)
+Threads         : 2
+Increments/thr  : 10000
+Expected count  : 20000
+Static count    : 17950
+Non-static total: 20000
+Absolute diff   : 2050
+Difference (%)  : 10.2500
+
+===== TC3: java Sumit_Thread 5 10000 true  (run 1) =====
+Mode            : Thread-safe (AtomicLong)
+Threads         : 5
+Increments/thr  : 10000
+Expected count  : 50000
+Static count    : 50000
+Non-static total: 50000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC3: java Sumit_Thread 5 10000 false  (run 1) =====
+Mode            : Unsynchronized (long)
+Threads         : 5
+Increments/thr  : 10000
+Expected count  : 50000
+Static count    : 46611
+Non-static total: 50000
+Absolute diff   : 3389
+Difference (%)  : 6.7780
+
+===== TC3: java Sumit_Thread 5 10000 false  (run 2) =====
+Mode            : Unsynchronized (long)
+Threads         : 5
+Increments/thr  : 10000
+Expected count  : 50000
+Static count    : 45048
+Non-static total: 50000
+Absolute diff   : 4952
+Difference (%)  : 9.9040
+
+===== TC3: java Sumit_Thread 5 10000 false  (run 3) =====
+Mode            : Unsynchronized (long)
+Threads         : 5
+Increments/thr  : 10000
+Expected count  : 50000
+Static count    : 43768
+Non-static total: 50000
+Absolute diff   : 6232
+Difference (%)  : 12.4640
+
+===== TC3: java Sumit_Thread 5 10000 false  (run 4) =====
+Mode            : Unsynchronized (long)
+Threads         : 5
+Increments/thr  : 10000
+Expected count  : 50000
+Static count    : 42541
+Non-static total: 50000
+Absolute diff   : 7459
+Difference (%)  : 14.9180
+
+===== TC3: java Sumit_Thread 5 10000 false  (run 5) =====
+Mode            : Unsynchronized (long)
+Threads         : 5
+Increments/thr  : 10000
+Expected count  : 50000
+Static count    : 45923
+Non-static total: 50000
+Absolute diff   : 4077
+Difference (%)  : 8.1540
+
+===== TC4: java Sumit_Thread 10 50000 true  (run 1) =====
+Mode            : Thread-safe (AtomicLong)
+Threads         : 10
+Increments/thr  : 50000
+Expected count  : 500000
+Static count    : 500000
+Non-static total: 500000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC4: java Sumit_Thread 10 50000 false  (run 1) =====
+Mode            : Unsynchronized (long)
+Threads         : 10
+Increments/thr  : 50000
+Expected count  : 500000
+Static count    : 125363
+Non-static total: 500000
+Absolute diff   : 374637
+Difference (%)  : 74.9274
+
+===== TC4: java Sumit_Thread 10 50000 false  (run 2) =====
+Mode            : Unsynchronized (long)
+Threads         : 10
+Increments/thr  : 50000
+Expected count  : 500000
+Static count    : 110842
+Non-static total: 500000
+Absolute diff   : 389158
+Difference (%)  : 77.8316
+
+===== TC4: java Sumit_Thread 10 50000 false  (run 3) =====
+Mode            : Unsynchronized (long)
+Threads         : 10
+Increments/thr  : 50000
+Expected count  : 500000
+Static count    : 65868
+Non-static total: 500000
+Absolute diff   : 434132
+Difference (%)  : 86.8264
+
+===== TC4: java Sumit_Thread 10 50000 false  (run 4) =====
+Mode            : Unsynchronized (long)
+Threads         : 10
+Increments/thr  : 50000
+Expected count  : 500000
+Static count    : 58279
+Non-static total: 500000
+Absolute diff   : 441721
+Difference (%)  : 88.3442
+
+===== TC4: java Sumit_Thread 10 50000 false  (run 5) =====
+Mode            : Unsynchronized (long)
+Threads         : 10
+Increments/thr  : 50000
+Expected count  : 500000
+Static count    : 259159
+Non-static total: 500000
+Absolute diff   : 240841
+Difference (%)  : 48.1682
+
+===== TC5: java Sumit_Thread 20 50000 true  (run 1) =====
+Mode            : Thread-safe (AtomicLong)
+Threads         : 20
+Increments/thr  : 50000
+Expected count  : 1000000
+Static count    : 1000000
+Non-static total: 1000000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC5: java Sumit_Thread 20 50000 false  (run 1) =====
+Mode            : Unsynchronized (long)
+Threads         : 20
+Increments/thr  : 50000
+Expected count  : 1000000
+Static count    : 188974
+Non-static total: 1000000
+Absolute diff   : 811026
+Difference (%)  : 81.1026
+
+===== TC5: java Sumit_Thread 20 50000 false  (run 2) =====
+Mode            : Unsynchronized (long)
+Threads         : 20
+Increments/thr  : 50000
+Expected count  : 1000000
+Static count    : 155059
+Non-static total: 1000000
+Absolute diff   : 844941
+Difference (%)  : 84.4941
+
+===== TC5: java Sumit_Thread 20 50000 false  (run 3) =====
+Mode            : Unsynchronized (long)
+Threads         : 20
+Increments/thr  : 50000
+Expected count  : 1000000
+Static count    : 122894
+Non-static total: 1000000
+Absolute diff   : 877106
+Difference (%)  : 87.7106
+
+===== TC5: java Sumit_Thread 20 50000 false  (run 4) =====
+Mode            : Unsynchronized (long)
+Threads         : 20
+Increments/thr  : 50000
+Expected count  : 1000000
+Static count    : 133289
+Non-static total: 1000000
+Absolute diff   : 866711
+Difference (%)  : 86.6711
+
+===== TC5: java Sumit_Thread 20 50000 false  (run 5) =====
+Mode            : Unsynchronized (long)
+Threads         : 20
+Increments/thr  : 50000
+Expected count  : 1000000
+Static count    : 262203
+Non-static total: 1000000
+Absolute diff   : 737797
+Difference (%)  : 73.7797
+
+===== TC6: java Sumit_Thread 50 50000 true  (run 1) =====
+Mode            : Thread-safe (AtomicLong)
+Threads         : 50
+Increments/thr  : 50000
+Expected count  : 2500000
+Static count    : 2500000
+Non-static total: 2500000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC6: java Sumit_Thread 50 50000 false  (run 1) =====
+Mode            : Unsynchronized (long)
+Threads         : 50
+Increments/thr  : 50000
+Expected count  : 2500000
+Static count    : 387932
+Non-static total: 2500000
+Absolute diff   : 2112068
+Difference (%)  : 84.4827
+
+===== TC6: java Sumit_Thread 50 50000 false  (run 2) =====
+Mode            : Unsynchronized (long)
+Threads         : 50
+Increments/thr  : 50000
+Expected count  : 2500000
+Static count    : 192702
+Non-static total: 2500000
+Absolute diff   : 2307298
+Difference (%)  : 92.2919
+
+===== TC6: java Sumit_Thread 50 50000 false  (run 3) =====
+Mode            : Unsynchronized (long)
+Threads         : 50
+Increments/thr  : 50000
+Expected count  : 2500000
+Static count    : 266336
+Non-static total: 2500000
+Absolute diff   : 2233664
+Difference (%)  : 89.3466
+
+===== TC6: java Sumit_Thread 50 50000 false  (run 4) =====
+Mode            : Unsynchronized (long)
+Threads         : 50
+Increments/thr  : 50000
+Expected count  : 2500000
+Static count    : 2143582
+Non-static total: 2500000
+Absolute diff   : 356418
+Difference (%)  : 14.2567
+
+===== TC6: java Sumit_Thread 50 50000 false  (run 5) =====
+Mode            : Unsynchronized (long)
+Threads         : 50
+Increments/thr  : 50000
+Expected count  : 2500000
+Static count    : 1384918
+Non-static total: 2500000
+Absolute diff   : 1115082
+Difference (%)  : 44.6033
+
+===== TC7: java Sumit_Thread 100 50000 true  (run 1) =====
+Mode            : Thread-safe (AtomicLong)
+Threads         : 100
+Increments/thr  : 50000
+Expected count  : 5000000
+Static count    : 5000000
+Non-static total: 5000000
+Absolute diff   : 0
+Difference (%)  : 0.0000
+
+===== TC7: java Sumit_Thread 100 50000 false  (run 1) =====
+Mode            : Unsynchronized (long)
+Threads         : 100
+Increments/thr  : 50000
+Expected count  : 5000000
+Static count    : 1893613
+Non-static total: 5000000
+Absolute diff   : 3106387
+Difference (%)  : 62.1277
+
+===== TC7: java Sumit_Thread 100 50000 false  (run 2) =====
+Mode            : Unsynchronized (long)
+Threads         : 100
+Increments/thr  : 50000
+Expected count  : 5000000
+Static count    : 4552192
+Non-static total: 5000000
+Absolute diff   : 447808
+Difference (%)  : 8.9562
+
+===== TC7: java Sumit_Thread 100 50000 false  (run 3) =====
+Mode            : Unsynchronized (long)
+Threads         : 100
+Increments/thr  : 50000
+Expected count  : 5000000
+Static count    : 3769528
+Non-static total: 5000000
+Absolute diff   : 1230472
+Difference (%)  : 24.6094
+
+===== TC7: java Sumit_Thread 100 50000 false  (run 4) =====
+Mode            : Unsynchronized (long)
+Threads         : 100
+Increments/thr  : 50000
+Expected count  : 5000000
+Static count    : 1691758
+Non-static total: 5000000
+Absolute diff   : 3308242
+Difference (%)  : 66.1648
+
+===== TC7: java Sumit_Thread 100 50000 false  (run 5) =====
+Mode            : Unsynchronized (long)
+Threads         : 100
+Increments/thr  : 50000
+Expected count  : 5000000
+Static count    : 1850139
+Non-static total: 5000000
+Absolute diff   : 3149861
+Difference (%)  : 62.9972
+
